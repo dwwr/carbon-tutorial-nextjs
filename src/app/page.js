@@ -1,9 +1,12 @@
+'use client';
+import { Button } from '@carbon/react';
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-Hello Carbon! Well, not quite yet. This is the starting point for the Carbon NextJS tutorial.
+      <Button>Button</Button>
     </div>
+  );
+};
 
-  )
-}
+export default Home;
