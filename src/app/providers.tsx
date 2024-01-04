@@ -1,13 +1,13 @@
 'use client';
-
-import { TutorialHeader } from '../components/TutorialHeader/TutorialHeader.jsx';
+import React from 'react';
+import { TutorialHeader } from '../components/TutorialHeader/TutorialHeader';
 import { Content } from '@carbon/react';
 
-export function Providers({ children }) {
+export const Providers = ({ children }) => {
   return (
     <div>
       <TutorialHeader />
       <Content>{children}</Content>
     </div>
   );
-}
+};
