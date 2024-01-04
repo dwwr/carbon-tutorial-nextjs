@@ -22,7 +22,9 @@
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
+  "baseUrl": "./src",
   "paths": {
-    "@/*": ["./src/*"]
+    "@/components/*": ["components/*"],
+    "@/app/*": ["app/*"]
   }
 }
